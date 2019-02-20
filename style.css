@@ -1,5 +1,9 @@
+
+
+
 * {
   /*border: 1px solid red;*/
+  border: 1px solid transparent;
   background-color: #000;
   color: #0f0;
   /* text-shadow: 0 0 10px #0f0; */
@@ -36,7 +40,7 @@
 }
 
 #navbar-border {
-  border-bottom: 1px solid #0f0;
+  border: 1px solid #0f0;
   box-shadow: 0 0 5px 1px #0f0;
   position: fixed;
   top: 45px;
