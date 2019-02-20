@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *
 {
 	border: 1px solid transparent;
@@ -100,6 +101,71 @@ body
 #welcome-section
 {
 	height: 100vh;
+=======
+
+
+
+* {
+  /*border: 1px solid red;*/
+  border: 1px solid transparent;
+  background-color: #000;
+  color: #0f0;
+  /* text-shadow: 0 0 10px #0f0; */
+  font-family: monospace;
+  font-weight: 100;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 1px;
+  padding: 0;
+  text-align: center;
+  width: auto;
+  height: auto;
+  transition: 0.5s;
+}
+
+#navbar-background {
+  position: fixed;
+  top: 0;
+  margin: 0 0 0 -50px;
+  width: 200%;
+  height: 48px;
+  z-index: 1;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1px 1px 47px; /* overkill */
+  width: 50vw; /* overkill */
+  z-index: 2;
+}
+
+#navbar-border {
+  border: 1px solid #0f0;
+  box-shadow: 0 0 5px 1px #0f0;
+  position: fixed;
+  top: 45px;
+  margin: 0 1px 1px -50px; /* overkill */
+  width: 200%; /* overkill */
+  z-index: 3;
+}
+
+.nav-link {
+  border: 1px solid #000;
+  padding: 12px 10% 13px 10%;
+}
+
+.nav-link:hover {
+  border: 1px solid #0f0;
+  box-shadow: 0 0 5px 0 #0f0, inset 0 0 5px 0 #0f0;
+}
+
+#welcome-section {
+  height: 100vh;
+>>>>>>> 2471537ff90e620ad0c8b58a10a5762bfa768e13
 /*
   height: calc(100vh - 2px);
 */
