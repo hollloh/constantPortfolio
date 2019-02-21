@@ -4,20 +4,6 @@
 
 	/* debug */
 	/*border: 1px solid red;*/
-/*
-	background-color: #000;
-	color: #0f0;
-	text-shadow: 0 0 10px #0f0;
-	font-family: monospace;
-	font-weight: 100;
-	font-size: 15px;
-	text-decoration: none;
-	margin: 1px;
-	padding: 0;
-	text-align: center;
-	width: auto;
-	height: auto;
-*/
 }
 
 html
@@ -176,6 +162,7 @@ body
 #profile-link-section h2
 {
 	font-family: inherit;
+	font-size: inherit;
 	font-weight: inherit;
 	text-align: left;
 }
@@ -239,5 +226,4 @@ body
 		width: 30vw;
 	}
 }
-
 
